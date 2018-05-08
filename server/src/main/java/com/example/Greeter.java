@@ -13,7 +13,7 @@ public class Greeter {
   }
 
   /*
-  //TODO: Add javadoc comment
+  //COMENTARIO: Add javadoc comment
   */
   /** {@inheritDoc} */
   public String greet(final String someone) {
