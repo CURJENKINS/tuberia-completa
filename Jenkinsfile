@@ -8,7 +8,8 @@ pipeline {
       }
     post { 
       success { 
-        echo 'Guardando....' archiveArtifacts artifacts: '**/target/*.war'
+        echo 'Guardando....' 
+        archiveArtifacts artifacts: '**/target/*.war'
       }
     }
   }
