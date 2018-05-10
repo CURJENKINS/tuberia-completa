@@ -18,7 +18,7 @@ pipeline {
   }
     stage ('Paso a pre') {
       steps {
-        build job: ''
+        build job: 'realizar-deploy'
       }
     }
 }
